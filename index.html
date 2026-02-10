@@ -1,0 +1,22 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>IndyHAX â€¢ CSS</title>
+  <style>
+    body{font-family:system-ui,Segoe UI,Roboto,Arial,sans-serif;max-width:900px;margin:40px auto;padding:0 16px}
+    .card{border:1px solid #ddd;border-radius:12px;padding:18px;background:#fff}
+    .muted{color:#666}
+    .flag{color:transparent;text-shadow:0 0 10px rgba(0,0,0,0.25);filter:blur(7px);user-select:none}
+  </style>
+</head>
+<body>
+  <h1>IndyHAX CTF â€” CSS</h1>
+  <div class="card">
+    <p class="muted">Itâ€™s "hidden"â€¦ but still in the DOM.</p>
+    <p class="flag">INDYHAX{css_can_hide_secrets_but_not_from_attackers}</p>
+    <p class="muted">Hint: disable CSS or inspect computed styles.</p>
+  </div>
+</body>
+</html>
